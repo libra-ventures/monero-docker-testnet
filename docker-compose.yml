@@ -1,0 +1,11 @@
+version: "3"
+services:
+  node1:
+    image: "libra-ventures/monero-testnet:0.11"
+    ports:
+      - "18081:18081"
+      - "28081:28081"
+      - "38081:38081"
+    volumes:
+      - './chains:/monero/blockchain'
+      - './wallets:/monero/wallets'
