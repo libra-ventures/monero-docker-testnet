@@ -3,9 +3,9 @@ services:
   node1:
     image: "libraventures/monero-testnet:0.11"
     ports:
-      - "18081:18081"
-      - "28081:28081"
-      - "38081:38081"
+      - "127.0.0.1:18081:18081"
+      - "127.0.0.1:28081:28081"
+      - "127.0.0.1:38081:38081"
     volumes:
       - './chains:/monero/blockchain'
       - './wallets:/monero/wallets'
