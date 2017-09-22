@@ -9,3 +9,4 @@ services:
     volumes:
       - './chains:/monero/blockchain'
       - './wallets:/monero/wallets'
+      - './logs:/monero/logs'

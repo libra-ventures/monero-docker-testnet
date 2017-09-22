@@ -1,5 +1,9 @@
 #!/bin/sh
 
+if [ ! -d "/monero/logs" ]; then
+  mkdir -p /monero/logs
+fi
+
 if [ ! -d "/monero/blockchain" ] || [ -z "$(ls -A /monero/blockchain)" ]; then
   mkdir -p /monero/blockchain/node1 && mkdir /monero/blockchain/node2
 fi
