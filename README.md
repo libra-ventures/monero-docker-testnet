@@ -13,7 +13,7 @@ Current version runs Monero v0.11 - two nodes and a wallet RPC service thus expo
 ```
 28081: daemon 1 RPC port
 38081: daemon 2 RPC port
-18081: wallet RPC port
+18082: wallet RPC port
 ```
 
 First wallet address is `9wviCeWe2D8XS82k2ovp5EUYLzBt9pYNW2LXUFsZiv8S3Mt21FZ5qQaAroko1enzw3eGr9qC7X1D7Geoo2RrAotYPwq9Gm8`
