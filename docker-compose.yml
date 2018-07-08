@@ -1,7 +1,7 @@
 version: "3"
 services:
   node1:
-    image: "libraventures/monero-testnet:0.11"
+    image: "libraventures/monero-testnet:0.12"
     ports:
       - "127.0.0.1:18082:18082"
       - "127.0.0.1:28081:28081"

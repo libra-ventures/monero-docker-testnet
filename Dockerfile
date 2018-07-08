@@ -1,4 +1,4 @@
-FROM alpine:3.6
+FROM alpine:edge
 MAINTAINER Yevhenii Kurtov "yevhenii.kurtov@libraventur.es"
 
 WORKDIR /monero
