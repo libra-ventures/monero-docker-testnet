@@ -8,7 +8,7 @@ It consists of two nodes talking to each other and a two wallet rpc services.
 Both wallets and blockchain folders are exported on the host FS in the `wallets` and `chains` folders respectively.
 Wallet logs are mounted as the `logs` folder.
 
-Current version runs Monero v0.13.02 exposing following ports:
+Current version runs Monero v0.14.1 exposing following ports:
 
 ```
 28081: daemon 1 RPC port
@@ -21,3 +21,7 @@ First wallet address is `9wviCeWe2D8XS82k2ovp5EUYLzBt9pYNW2LXUFsZiv8S3Mt21FZ5qQa
 Second wallet address is `9wq792k9sxVZiLn66S3Qzv8QfmtcwkdXgM5cWGsXAPxoQeMQ79md51PLPCijvzk1iHbuHi91pws5B7iajTX9KTtJ4bh2tCh`
 
 **NOTE:** at least one node should be mining for network to confirm transactions. Use `start_mining` wallet command to start mining.
+
+### Building
+
+`docker build -t libraventures/monero-testnet:0.14.1 .`
